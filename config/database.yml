@@ -11,7 +11,7 @@ default: &default
 development:
   <<: *default
   adapter: sqlite3
-  database: quo_development
+  database: db/development.sqlite3
   
 
 # Warning: The database defined as "test" will be erased and
